@@ -6,32 +6,32 @@ This is an Udacity project to develop a database schema to store the game matche
 
 
 ## Requirements
-[Python ~2.7](https://www.python.org/)
+[Python 2.7 or above](https://www.python.org/) and
 [PostgreSQL](http://www.postgresql.org/)
 
 
 ## Set Up
 1. Install [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/).
 
-2. Clone [three files above](https://github.com/ayrka39/FSDN-3Tournament.git).
+2. Clone [the files](https://github.com/ayrka39/FSDN-3Tournament.git) in this repo.
 
 
 ## Usage
 
 1. Go to the folder where the files are and launch VM as follows
 
-`vagrant up`
+  `vagrant up`
 
-`vagrant ssh`
+  `vagrant ssh`
 
 2. Create the necessary tables inside the database
 
-`cd /your/folder`
+  `cd /your/folder`
 
-`psql`
+  `psql`
 
-`\i tournament.sql`
+  `\i tournament.sql`
 
 3. Run the test and see the output
 
-`python tournament_test.py`
+  `python tournament_test.py`
